@@ -52,3 +52,6 @@ p {
 h4{
     font-size: 27px;
 }
+.cl_pr{
+    border: 1px solid rgb(27, 27, 212);
+}
