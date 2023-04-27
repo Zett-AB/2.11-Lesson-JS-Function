@@ -1,57 +1,90 @@
 *{
     padding: 9px;
 }
-@font-face {
-	font-family: 'Philosopher'; 
-	src: local('Phlosopher'),
-		url(fonts/Philosopher/Philosopher-Regular.ttf),
-        url(fonts/Philosopher/Philosopher-Bold.ttf),
-        url(fonts/Philosopher/Philosopher-BoldItalic.ttf),
-        url(fonts/Philosopher/Philosopher-Italic.ttf); 
-        font-style: normal; 
-        font-weight: normal;
+
+body {
+    background-color: gainsboro;
 }
-@font-face {
-	font-family: 'Montserrat_Alternates'; 
-	src: local('Montserrat_Alternates'),
-		url(fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf),
-        url(fonts/Montserrat_Alternates/MontserratAlternates-Black.ttf),
-        url(fonts/Montserrat_Alternates/MontserratAlternates-Bold.ttf),
-        url(fonts/Montserrat_Alternates/MontserratAlternates-ExtraBold.ttf),
-        url(fonts/Montserrat_Alternates/MontserratAlternates-ExtraLight.ttf),
-        url(fonts/Montserrat_Alternates/MontserratAlternates-Italic.ttf),
-        url(fonts/Montserrat_Alternates/MontserratAlternates-Light.ttf),
-        url(fonts/Montserrat_Alternates/MontserratAlternates-Medium.ttf),
-        url(fonts/Montserrat_Alternates/MontserratAlternates-SemiBold.ttf),
-        url(fonts/Montserrat_Alternates/MontserratAlternates-Thin.ttf); 
-        font-style: normal; 
-        font-weight: normal;
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Philosopher', sans-serif;
 }
-body{
-    background-color: beige;
-}
-h1, h2,h3,h4,h5,h6{
-    font-family: Philosopher;
-}
-p {
-    font-family: Montserrat Alternates;
+p{
     font-size: 18px;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
-.title{
-    text-align: center;
-    font-size: 41px;
-}
-.list{
-    font-family: Montserrat Alternates;
-    font-size: 18px;
-}
-.subtitle{
-    font-size: 35px;
-    text-align: center;
+h3{
+    font-size: 30px;
 }
 h4{
     font-size: 27px;
 }
-.cl_pr{
-    border: 1px solid rgb(27, 27, 212);
+h5{
+    font-size: 25px;
+}
+
+.title{
+    font-size: 40px;
+    text-align: center;
+}
+.subtitle{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+.code_js_sint{
+    border: 1px solid blue;
+    color: rgb(231, 15, 105);
+    padding: 32px;
+}
+.code_js_sint p {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+}
+.code_js_spn{
+    color: blue;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+}
+
+.list_func{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+}
+.fun_dec{
+    border: 2px solid brown;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 36px;
+    margin-bottom: 20px;
+}
+.fun_exp{
+    border: 2px solid brown;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 36px;
+    margin-bottom: 20px;
+}
+.function_basic{
+    border-top: 2px solid brown;
+}
+.inform{
+    border: 2px solid red;
+    background-color: rgb(183, 183, 255);
+    color: red;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.inform_attention{
+    border: 1px solid #00008B;
+    background-color: #B0E0E6;
+    padding: 20px 20px 30px 30px;
+    color: #00008B;
+}
+.list_attention{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
 }
